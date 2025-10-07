@@ -73,6 +73,15 @@ body.joomlared {background: $joomlared;}
 body.joomlablue {background: $joomlablue;}
 body.joomlayellow {background: $joomlayellow;}
 body.joomlagreen {background: $joomlagreen;}
+body.bwr {
+  background: #6b7d8b;
+  * {
+    color: #fff !important;
+  }
+  .highlight-heading {
+    background: linear-gradient(to top, #a6a6a6 45%, transparent 45%);
+  }
+}
 
 html.animationgif .reveal .slide-background
 {

@@ -1,118 +1,128 @@
-<p align="center">
-  <a href="https://revealjs.com">
-  <img src="https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-black-text-sticker.png" alt="reveal.js" width="500">
-  </a>
-  <br><br>
-  <a href="https://github.com/hakimel/reveal.js/actions"><img src="https://github.com/hakimel/reveal.js/workflows/tests/badge.svg"></a>
-  <a href="https://slides.com/"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
-</p>
+# 🧭 BWR 2026 – Umsetzungsplan & Aufgabenübersicht
 
-Dieses Repository enthält eine Reveal.js-Präsentation, die ohne Gulp auskommt und sich direkt auf GitHub Pages betreiben lässt. Die Präsentation folgt dem Standard-Markup von reveal.js – alle Slides/Sections stehen direkt in der index.html (kein Markdown).
-
-The framework comes with a powerful feature set including [nested slides](https://revealjs.com/vertical-slides/), [Markdown support](https://revealjs.com/markdown/), [Auto-Animate](https://revealjs.com/auto-animate/), [PDF export](https://revealjs.com/pdf-export/), [speaker notes](https://revealjs.com/speaker-view/), [LaTeX typesetting](https://revealjs.com/math/), [syntax highlighted code](https://revealjs.com/code/) and an [extensive API](https://revealjs.com/api/).
+Diese Datei dient als Orientierung für Vorstand, Arbeitsgruppen & Mitglieder.
+Alle Aufgaben sind offen bearbeitbar und können im GitHub-Repo als Issues übernommen werden.
 
 ---
 
-Want to create reveal.js presentation in a graphical editor? Try <https://slides.com>. It's made by the same people behind reveal.js.
+## 🎬 Videoformate – Sichtbarkeit & Marke stärken
+
+**Ziel:** Gesichter zeigen, Vertrauen schaffen, Inhalte recyceln.
+
+### Aufgaben
+- [ ] Redaktionsplan mit festen Kategorien erstellen  
+  *(Vorstellung neuer Mitglieder, Jahresrecap, Fragen an Bürgermeister, Save-the-Date)*
+- [ ] Standard-Fragenkatalog für Interviews finalisieren
+- [ ] Schulung für Aufnehmende (iPhone + Rode Wireless Pro) organisieren
+- [ ] Nextcloud-Ordner „BWR Video“ einrichten (Struktur: Rohdaten / Final / Social)
+- [ ] Branding-Template für Reels & YouTube anlegen
+- [ ] Veröffentlichungskanal auf YouTube und Instagram abstimmen
+- [ ] Pilot-Video aufnehmen & Feedbackrunde starten
+
+**Startziel:** Frühjahr 2026
 
 ---
 
-### Sponsors
-Hakim's open source work is supported by <a href="https://github.com/sponsors/hakimel">GitHub sponsors</a>. Special thanks to:
-<div align="center">
-  <table>
-    <td align="center">
-      <a href="https://workos.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=revealjs&utm_source=github">
-        <div>
-          <img src="https://user-images.githubusercontent.com/629429/151508669-efb4c3b3-8fe3-45eb-8e47-e9510b5f0af1.svg" width="290" alt="WorkOS">
-        </div>
-        <b>Your app, enterprise-ready.</b>
-        <div>
-          <sub>Start selling to enterprise customers with just a few lines of code. Add Single Sign-On (and more) in minutes instead of months.</sub>
-        </div>
-      </a>
-    </td>
-  </table>
-</div>
+## ☕ Runder Tisch – Austausch unter Mitgliedern
+
+**Ziel:** Offener Austausch ohne Vortrag, praxisnah & verbindend.
+
+### Aufgaben
+- [ ] Themenformular (online) vorbereiten
+- [ ] Moderationsleitfaden erstellen (Zeit, Ablauf, Regeln)
+- [ ] Location klären (Greens, Henry’s, Volksbank, Schafstall)
+- [ ] 1. Termin festlegen & Einladung verschicken
+- [ ] Teilnahme evaluieren → ggf. Thementische testen
+
+**Startziel:** Q2 2026
 
 ---
 
-### Nutzung ohne Gulp
-- Installation: npm install
-- Entwicklung (mit Live-Reload): npm run dev (startet BrowserSync unter http://localhost:3000 und kompiliert SCSS im Watch-Modus)
-- Nur Styles beobachten: npm run watch (kompiliert SCSS nach dist/)
-- Lokaler Server ohne Live-Reload: npm start (baut CSS und startet http://localhost:8000)
-- Deployment auf GitHub Pages: Push auf den Branch, den du bei Pages konfiguriert hast (z. B. main). CNAME liegt bereits bei.
+## 🪑 Der Heiße Stuhl – Wirtschaft im direkten Dialog
 
-Slides bearbeiten: Öffne index.html und editiere die <section>-Blöcke innerhalb von <div class="slides">. Drücke während der Präsentation die Taste "s", um die Sprecheransicht zu öffnen. Dort siehst du die aktuellen Folien, die nächste Folie, einen Timer und deine Notizen (via <aside class="notes"> in jeder Section).
+**Ziel:** Fundierte Antworten auf relevante Wirtschaftsthemen.
 
-Videos pro Folie:
-- Klick zum Abspielen: In HTML ein Video-Tag mit data-clickplay einfügen.
-  Beispiel:
-  <video data-clickplay data-src="dist/assets/example.mp4" poster="dist/assets/poster.jpg" playsinline style="max-height:60vh"></video>
-- Vollbild & Autoplay beim Betreten der Folie: Nutze eine eigene Section mit data-video-fullscreen und setze am Video data-autoplay. Autoplay funktioniert zuverlässig, wenn das Video muted ist (Browser-Policy). Optional kannst du data-state="video-fullscreen" setzen, um die Reveal-UI (Controls/Progress) auszublenden.
-  Beispiel:
-  <section data-video-fullscreen data-state="video-fullscreen">
-    <video data-autoplay data-src="dist/assets/example.mp4" poster="dist/assets/poster.jpg" muted playsinline></video>
-  </section>
-- Verhalten:
-  - Videos werden erst bei Bedarf geladen (lazy via data-src).
-  - data-clickplay: Klick toggelt Play/Pause und blendet Controls ein/aus.
-  - data-autoplay: Startet automatisch beim Folienwechsel, pausiert/setzt zurück beim Verlassen.
-- Tipp: Lege deine MP4-Dateien unter dist/assets/ ab und nutze poster-Bilder für schnelle Voransicht.
+### Aufgaben
+- [ ] Themenliste (5–6 Vorschläge) vorbereiten
+- [ ] Expert:innen recherchieren & anfragen
+- [ ] Fragen im Vorfeld sammeln & bündeln
+- [ ] Ablaufplan + Moderationsleitfaden erstellen
+- [ ] Pilot-Termin planen (ca. 30–50 TN)
+- [ ] Ergebnisvideo oder Nachbericht erstellen
 
-Weitere Doku zu Reveal.js:
-- 🚀 Installation: https://revealjs.com/installation
-- 👀 Demo: https://revealjs.com/demo
-- 📖 Markup/Markdown: https://revealjs.com/markup/
-- 🖌 Editor: https://slides.com/
-- 🎬 Videokurs (paid): https://revealjs.com/course
+**Startziel:** Q3 2026
 
---- 
-<div align="center">
-  MIT licensed | Copyright © 2011-2024 Hakim El Hattab, https://hakim.se
-</div>
+---
 
+## 🍷⛺️ Barcamp – Austausch auf Augenhöhe
 
+**Ziel:** Spontane Themen, kollegiales Lernen, Impulse für neue Formate.
 
-#### Hintergrundvideo (echtes Fullscreen mit Reveal)
-- Nutze eine Section mit data-background-video. Reveal rendert das Video als Slide-Hintergrund (fullscreen), ideal für randloses 16:9.
-- Empfohlene Attribute:
-  - data-background-video: URL zur Videodatei
-  - data-background-color="#000": Hintergrundfarbe als Fallback
-  - data-background-size="cover": skaliert auf ganzen Viewport
-  - data-background-video-muted: für zuverlässiges Autoplay
-  - data-background-video-loop: optional
-  - data-state="video-fullscreen": optional zum Ausblenden der UI (Controls/Progress)
-- Beispiel:
-  <section 
-    data-background-video="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
-    data-background-color="#000"
-    data-background-size="cover"
-    data-background-video-muted
-    data-background-video-loop
-    data-state="video-fullscreen"
-  >
-    <h2 style="color:#fff">Fullscreen Hintergrund‑Video</h2>
-  </section>
+### Aufgaben
+- [ ] Grobkonzept & Ablauf fixieren (Pitchrunde + Sessions)
+- [ ] Raum mit flexibler Bestuhlung wählen
+- [ ] Visualisierungsmaterial (Whiteboards, Karten, Marker) beschaffen
+- [ ] Anmeldeformular vorbereiten
+- [ ] Snacks & Getränke abstimmen (z. B. Wein, Fingerfood)
+- [ ] Dokumentationstafel / Foto-Board planen
 
-#### Iframe als Folien‑Hintergrund (Fullscreen)
-- Nutze data-background-iframe, um eine externe Seite als Hintergrund zu laden.
-- Mit data-background-interactive erlaubst du Interaktionen (Scrollen, Klicken) im Iframe.
-- Empfohlene Attribute:
-  - data-background-iframe: URL zur Seite
-  - data-background-color="#000": Fallback‑Hintergrund
-  - data-background-interactive: erlaubt Interaktion (optional)
-  - data-state="iframe-fullscreen": optional zum Setzen eines speziellen Slide‑Zustands
-- Beispiel:
-  <section 
-    data-background-iframe="https://kickyoocasts.com/yoomasterclass/einfuehrung/intro-yoomasterclass"
-    data-background-interactive
-    data-background-color="#000"
-    data-state="iframe-fullscreen"
-  >
-    <h2 style="color:#fff">Iframe</h2>
-  </section>
-- Hinweise:
-  - Manche Seiten erlauben kein Einbetten (X-Frame-Options/CSP). In diesem Fall funktioniert der Iframe nicht.
-  - Verwende nach Möglichkeit HTTPS‑URLs, besonders für GitHub Pages.
+**Startziel:** Herbst 2026
+
+---
+
+## 🎤 Podiumsdiskussion – Wirtschaft & Politik im Dialog
+
+**Ziel:** Dialog, Transparenz & Präsenz gegenüber Politik & Öffentlichkeit.
+
+### Aufgaben
+- [ ] Format & jährlichen Zeitpunkt festlegen (Frühjahr / Herbst)
+- [ ] Fraktionen & Presse frühzeitig einbinden
+- [ ] Fragen über Mitgliederbefragung sammeln
+- [ ] Moderation & Ablauf definieren
+- [ ] Location (Empore / Rathaus) reservieren
+- [ ] Medienpartnerschaft prüfen (z. B. Wochenblatt)
+
+**Startziel:** Herbst 2026
+
+---
+
+## 📲 WhatsApp-Kanal – Schnell, direkt & modern
+
+**Ziel:** Direkte Kommunikation, Reminder, Veranstaltungsupdates.
+
+### Aufgaben
+- [ ] Offiziellen Kanal anlegen (Meta Business)
+- [ ] QR-Code für Website & Events erstellen
+- [ ] Contentplan mit 1–2 Posts pro Woche
+- [ ] Verantwortliche Person im Vorstand festlegen
+- [ ] Schnittstelle zu Social Media / Newsletter koordinieren
+- [ ] Startpost planen („Willkommen beim offiziellen BWR-Kanal“)
+
+**Startziel:** Q1 2026
+
+---
+
+## 💬 Kommunikation & Außenwirkung
+
+**Ziel:** Einheitliche Sprache, konsistente Werte, klare Positionierung.
+
+### Aufgaben
+- [ ] Claim auf Website anpassen („Netzwerk, das verbindet“)
+- [ ] Mitgliederbereich modernisieren (Infos, Downloads, Formulare)
+- [ ] FAQ-Bereich / Infoblatt „Mitglied werden“ überarbeiten
+- [ ] Digitales Namensschild / Visitenkarte testen
+- [ ] Redaktionsteam für Social Media definieren
+
+---
+
+## 🧩 Offene Themen & Entscheidungen
+
+- [ ] Wer moderiert den „Heißen Stuhl“?
+- [ ] Wer übernimmt Koordination Videoformate / WhatsApp-Kanal?
+- [ ] Gemeinsames Terminboard (Nextcloud / Notion / GitHub Projects)
+- [ ] Budgetrahmen für 2026 (Kommunikation, Events, Produktion)
+
+---
+
+> „Tradition ist kein Stillstand – sie ist die Basis für Neues.“  
+> _Buchholzer Wirtschaftsrunde 2026_
